@@ -1,0 +1,98 @@
+h1, h2, h3, nav li a{
+  font-family: 'Kiwi Maru', serif;
+
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+  background: gainsboro;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#navbarNavAltMarkup a {
+  margin: 10px;
+  font-size:x-large;
+  font-weight: bold;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ribbon .container .row .col-4 a {
+  border: none;
+  color: #658895;
+  display: flex;
+  justify-content: center;
+}
+
+.ribbon .container .row .col-4 a:hover {
+  border: none;
+  color: #112c15;
+  
+  background: none;
+
+  transform: translateY(-3px);
+}
+
+/* .products-col .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+} */
+.products-col h2{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.products-col .container img{
+  object-fit: cover;
+}
+.product img{
+  width:100%;
+  object-fit: cover;
+  margin-left:70px;
+}
+.product .stuff-img {
+  width:100px;
+  height: 70px;
+}
+.stuff-info{
+  margin-top:100px;
+}
+.col-md-3 :hover {
+  transform: scale(1.1);
+}
+.banner2{
+  display: flex;
+  justify-content: center;
+}
+
+\
+
+.footer{
+  background: gainsboro;
+}
+
+.footer ul li{
+list-style-type: none;
+margin:5px;
+
+}
+.footer .row .col-3 ul{
+  padding: 5px;
+}
+.footer .row .col-3 .infos {
+  display:flex;
+}
+.footer .row .col-3 .infos > * {
+  margin:5px;
+}
+.footer .row .col-3 i {
+padding: 5px;
+font-size: x-large ;
+}
